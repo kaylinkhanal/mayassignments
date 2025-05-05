@@ -11,5 +11,5 @@ const arr = ['ram', 'bahadur', 'thapa']
 
 
 
-//Q2 output should be ['ram','thapa']
-console.log(arr[0], arr[2]);
+const output = [arr[0], arr[2]];
+console.log(output); // ['ram', 'thapa']
