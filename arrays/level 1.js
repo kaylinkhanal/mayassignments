@@ -8,8 +8,8 @@ console.log(splitedArrau.toUpperCase())
 
 //By splice method
 
-newOutput.splice(1, 1)
-console.log(newOutput);
+arr.splice(1, 1)
+console.log(arr);
 
 //by another method
 // const output = [newOutput[0], newOutput[2]]
