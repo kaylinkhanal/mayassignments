@@ -36,3 +36,24 @@ console.log(startsWithB); // Output: 'bahadur'
 const allMoreThanThree = arr.every(name => name.length > 3);
 console.log(allMoreThanThree); // Output: true
 
+
+// Sort the array alphabetically
+const sortedArr = arr.slice().sort();
+console.log(sortedArr); // Output: ['bahadur', 'ram', 'thapa']
+
+
+
+// Calculate the total number of characters
+const totalLength = arr.reduce((sum, name) => sum + name.length, 0);
+console.log(totalLength); // Output: 16
+
+
+
+// Remove 'bahadur' from the array
+const removedElementArr = arr.filter(name => name !== 'bahadur');
+console.log(removedElementArr); // Output: ['ram', 'thapa']
+
+
+// Create a new array with indexes
+const indexedArr = arr.map((name, index) => `${index}: ${name}`);
+console.log(indexedArr); // Output: ['0: ram', '1: bahadur', '2: thapa']
