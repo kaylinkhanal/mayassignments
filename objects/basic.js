@@ -43,7 +43,7 @@ console.log(scores); // Output: { math: 350, computer: 701 }
 
 
 // alternative and better methode
-const { science, ...updatedScores } = scores;
+const { science2, ...updatedScores } = scores;
 
 console.log(updatedScores); // Output: { math: 350, computer: 701 }
 
