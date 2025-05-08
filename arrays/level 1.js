@@ -1,6 +1,7 @@
 const arr = ['ram', 'bahadur', 'thapa']
 
 //Q1 output should be 'RAM-BAHADUR-THAPA'
+
  const newArr = arr.join("-");
  console.log(newArr);
  console.log(newArr.toLocaleUpperCase());
