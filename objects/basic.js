@@ -4,9 +4,9 @@
 // object is based on keys for retrieval (using dot operator)
 
 let scores =  {
-    kaylin: 350,
-    ram: 503,
-    shyam: 701
+    math: 350,
+    science: 503,
+    computer: 701
 }
 
 // Calculate percentage scored and round off to 2 decimal places
