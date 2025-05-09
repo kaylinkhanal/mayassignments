@@ -70,3 +70,6 @@ for (let i = 0; i < numbers.length; i += chunkSize) {
 }
 
 console.log(chunked);
+
+const name = ['ram', 'shyam']
+name.map(nam => <li>{nam}</li>)
