@@ -7,7 +7,7 @@ const peopleMap =  {
 
 //Q1. convert to array
 //expected output : [['John ','Thapa'],['Jane','Doe'],['Bob','Smith']]
-
+console.log(Object.entries(peopleMap))
 
 // qn.1 => convert to array
 const peopleArray = Object.keys(peopleMap).map(key => [key, peopleMap[key]]);
@@ -25,16 +25,9 @@ console.log(Object.entries(peopleMap));
 
 // calculate the number of items in an object
 //expected output is 3
-
-
-console.log(Object.keys(peopleMap).length);
+console.log(Object.keys(peopleMap).length)
 
 // Q3. Print all fullname in this format 'John,Jane,Bob'
-const arr = Object.keys(peopleMap);
-console.log(arr.join(","));
+console.log(Object.keys(peopleMap).join())
 
-//HW: optional chaining in javascript
-
-
-//JARGAN  FOR OPTIONAL CHAINIG ===> TERMINOLOGY
-//CLOSURE ==> object nested inside the object 
+// HW: optional chaining in javascript
