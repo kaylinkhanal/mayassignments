@@ -30,7 +30,11 @@ console.log(Object.entries(peopleMap));
 console.log(Object.keys(peopleMap).length);
 
 // Q3. Print all fullname in this format 'John,Jane,Bob'
-const arr = Object.values(peopleMap);
+const arr = Object.keys(peopleMap);
 console.log(arr.join(","));
 
 //HW: optional chaining in javascript
+
+
+//JARGAN  FOR OPTIONAL CHAINIG ===> TERMINOLOGY
+//CLOSURE ==> object nested inside the object 
