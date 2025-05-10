@@ -4,8 +4,9 @@ let scores =  {
 }
 //destructuring
 const [goppal, shyam, krish, ram] = scores.math
-
 console.log(krish)
+// Output : 62
+
 
 const onlineUsers = [
     ['ram','close friend'],
