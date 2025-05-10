@@ -1,11 +1,9 @@
-<<<<<<< HEAD
 const addNumber = ()=>{
     return 5 + 5;
 }
 
 console.log(addNumber());
 
-=======
 function test(){
     return "hello"
 }
@@ -29,4 +27,3 @@ const giveMeCar = ( price, brand)=>{
 
   //what is pure and impure function
   //reduce loop in js
->>>>>>> 1cc92d1f5a15162cf09591b461e5a417831d70f1
