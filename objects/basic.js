@@ -10,7 +10,7 @@ let scores =  {
 }
 
 
-console.log(scores.science)
+
 
 
 //Q1. calculate the percetange scored, full marks of each subject is 1000, and round off to 2 decimal placesre
