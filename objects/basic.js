@@ -8,22 +8,21 @@ let scores =  {
     science: 503,
     computer: 701
 }
-
-
-
-
-
 //Q1. calculate the percetange scored, full marks of each subject is 1000, and round off to 2 decimal placesre
-// ans= (((scores.kaylin+scores.ram+scores.shyam)/3000)*100);
-// console.log(ans);
-// result=Math.round(ans);
-// console.log(result);
+ans= ((scores.math+scores.science+scores.computer)/3000*100);
+console.log(ans.toFixed(2));    // 51.80
 
 
+//Q2. what is destructuring an object. solve Q1 by destructuring method.
+const {math,science,computer}=scores;
+console.log((math+science+computer)/3000*100);  //  51.800000000000004
 
-// delete science from scores object
-delete scores.math
+// Q3. delete science from scores object
+delete scores.science;
+console.log(scores);     
+// { math: 350, computer: 701 }
+
+// Q4. add a new subject called 'english' with score 800
+scores.english= 800;
 console.log(scores);
-
-scores.english=800;
-console.log(english);
+// { math: 350, computer: 701, english: 800 }

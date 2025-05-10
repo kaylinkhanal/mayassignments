@@ -14,8 +14,13 @@ console.log(Object.entries(peopleMap));
 //expected output is 3
 console.log(Object.keys(peopleMap).length);
 
+console.log(Object.keys(peopleMap).length)
 
 // Q3. Print all fullname in this format 'John,Jane,Bob'
+console.log(Object.keys(peopleMap).join())
+
+// HW: optional chaining in javascript
+
 console.log(Object.keys(peopleMap).join());
 
 // Optional chaining in javscript
