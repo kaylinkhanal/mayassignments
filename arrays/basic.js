@@ -18,13 +18,13 @@ const shoppingCart = [
 //using forEach calculate the total amount user needs to pay
 let sum = 0
 shoppingCart.forEach(item => {
-    sum = item.price + sum
+    sum += item.price * item.quantity
 })
 console.log(sum);
 
 
 //using reduce do the same
-const totalPayableAmount = shoppingCart.map(item => item.price).reduce((acc, item) => {
-    return acc + item
-})
+const totalPayableAmount = shoppingCart.reduce((acc, item) => {
+    return acc + item.price * item.quantity
+}, 0)
 console.log(totalPayableAmount);
