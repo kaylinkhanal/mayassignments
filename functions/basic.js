@@ -21,3 +21,4 @@ const giveMeCar = ( price, brand)=>{
 
   //what is pure and impure function
   //reduce loop in js
+ 
