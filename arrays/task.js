@@ -18,3 +18,16 @@ let totalPrice = 0;
 
 
 console.log(totalPrice);
+
+
+//using reduce method
+
+const totalCost = shoppingCart.reduce((sum, nextValues)=>{
+    
+   let subTotal = nextValues.quantity * nextValues.price;
+   subTotal += sum;
+
+   return subTotal
+},0);
+
+console.log(totalCost);
