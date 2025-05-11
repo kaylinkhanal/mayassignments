@@ -20,3 +20,25 @@
 const arr = [{name: 'ram',score:100}, {name:'gopal', score:99}]
 // we need to loop over the arr and save it to our mongodb database
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
