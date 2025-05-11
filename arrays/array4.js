@@ -28,7 +28,7 @@ console.log(oddNumbers.reduce((acc, current) => { return acc + current }, 0))
 console.log('output of q3');
 const divisibleBy3 = []
 numbers.map(number => {
-  if (number % 3 === 0)
+  if (number % 3 !== 0)
     divisibleBy3.push(number)
 })
 console.log(divisibleBy3);
