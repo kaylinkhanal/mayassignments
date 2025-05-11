@@ -68,7 +68,6 @@ for (let i = 0; i < numbers.length; i += chunkSize) {
   const chunk = numbers.slice(i, i + chunkSize);
   chunked.push(chunk);
 }
-
 console.log(chunked);
 
 const name = ['ram', 'shyam']

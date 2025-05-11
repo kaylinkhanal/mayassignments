@@ -6,3 +6,25 @@ console.log(arr.length)
 
 // Q2 output should be [1,4,5]
 console.log(arr.slice(0, 3))
+// Example usage:
+const shoppingCart = [
+    { name: 'Laptop', quantity: 10, price: 1200 },
+    { name: 'Mouse', quantity: 3, price: 25 },
+    { name: 'Keyboard', quantity: 10, price: 75 },
+    { name: 'Monitor', quantity: 3, price: 300 }
+];
+
+
+//using forEach calculate the total amount user needs to pay
+let sum = 0
+shoppingCart.forEach(item => {
+    sum = item.price + sum
+})
+console.log(sum);
+
+
+//using reduce do the same
+const totalPayableAmount = shoppingCart.map(item => item.price).reduce((acc, item) => {
+    return acc + item
+})
+console.log(totalPayableAmount);
