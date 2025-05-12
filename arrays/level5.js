@@ -29,7 +29,11 @@ console.log(filteredOutput)
 
 const mapping = arr.map((item)=>{
  ///write your code here
-    return item
+ 
+    return item %2
+    
+
 })
 console.log(mapping)
 //Q3. output should be [1,1,0,1,0]
+
