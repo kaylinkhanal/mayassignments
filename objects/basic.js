@@ -28,7 +28,7 @@ delete scores.science
 console.log(scores)
 
 // modern syntax
-// const {dance, ...allOther} = scores
+// const {dance, ...allOther} = scores 
 // console.log(allOther)
 
 

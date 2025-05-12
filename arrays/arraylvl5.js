@@ -30,4 +30,4 @@ console.log(nums);
 
 // Q8: Output the number of elements in the array
 const arrayLength = nums.length;
-console.log(arrayLength);
+console.log(arrayLength);  
