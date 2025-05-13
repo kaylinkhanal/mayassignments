@@ -1,0 +1,8 @@
+array.join(''):- JOin Method is used to join the element of array
+
+array.splice():- eliminate the element of array. Change original array into new form(i.e. without eliminated array)
+
+
+.toUpperCase():-Transfer into Uppercase
+.toLowerCase():-Transfer into Lowercase
+
