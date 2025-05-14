@@ -70,8 +70,8 @@ function nestComment(commentList){
                 parentComment.replies[comment.id] = currentComment;
             }
             else {
-                 console.log(`Orphaned comment found: id ${comment.id}, parentId ${comment.parentId}`); 
-                }
+              console.log(`Orphaned comment found: id ${comment.id}, parentId ${comment.parentId}`); 
+            }
     
             
 
