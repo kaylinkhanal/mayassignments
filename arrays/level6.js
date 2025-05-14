@@ -2,7 +2,8 @@ const arr = ['ram', {math: 10, english: 20}, ['bhaktapur','sanepa'], {gender: 'M
 // Q1. calcualte the total scores scored by ram
 //expected output 30
 
-
+const sum = Object.values(arr[1]).reduce((acc, score) => acc + score, 0);
+console.log('total score:', sum); 
 
 
 const users =['ram' ,'shyam',null, undefined, false, 'gopal']
