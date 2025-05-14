@@ -10,7 +10,6 @@ let scores =  {
 }
 
 
-<<<<<<< HEAD
 console.log(scores.math)
 
 
@@ -41,30 +40,75 @@ console.log(scores)
 
 
 
+// let a = 1
+// const test=()=>{
+//     a= a +100
+// }
+
+
+// // assinging parameters
+
+// const giveMeCar = ( price, brand)=>{
+//     return "The brand " + brand + "price is "+ price 
+//   }
+  
+//   //passing arguments
+//   console.log(giveMeCar('Toyota',5300000))
+//   console.log(giveMeCar('Mercedes',15300000))
+//   console.log(giveMeCar('BMW',14300000))
+
+
+  //what is pure and impure function
+
+
+
+// PURE vs IMPURE 
+
+// IMPURE:
+
+// -> might not always return same output for a given input to the function
+// -> impure needs to create global var
+// -> impure functions will change external resources
+// -> impure has side effects
+// -> impure functions are difficult to test
+
+
+
+// -> pure will not modify outer (external resources)
+let mathScore = 30
+function addPracticalMarks(){
+mathScore = mathScore+ 25
+return mathScore
+}
+
+console.log(addPracticalMarks())
+console.log(mathScore)
+
+
+// --> QA
+
+// Unit test
+// Regression test
+// Integration testing 
+// System test
+
+
+// TDD
+
+
+// -> if possbile, always create a pure function
 
 
 
 
-=======
 
 
 
-//Q1. calculate the percetange scored, full marks of each subject is 1000, and round off to 2 decimal places
-console.log(((scores.math + scores.science + scores.computer)/3000*100).toFixed(2))
-//Q2. what is destructuring an object. solve Q1 by destructuring method.
-const {math, science, computer} = scores;
-console.log((math+science+computer)/3000*100)
+  //reduce loop in js
 
-// Q3. delete science from scores object
-//expected output: { math: 350, computer: 701 }
-delete scores.science
-console.log(scores)
-// const { dance, ...allOther} = scores;   ---- rest operator
-// console.log( allOther)
-// const backup = {...scores}    ---spread operator
 
-// Q4. add a new subject called 'english' with score 800
-//expected output: { math: 350,  computer: 701, english: 800 }
-scores.english = 800
-console.log(scores)
->>>>>>> 64d98e88b111d76412f6fd7b85b9958293c1fd4c
+
+
+
+
+
