@@ -50,6 +50,5 @@ console.log(onlyNumbers);
 // Q8. Count how many keys have length > 3: { one: 1, four: 4, five: 5 }
 const obj8 = { one: 1, four: 4, five: 5 };
 const countKeys = Object.keys(obj8).filter(key => key.length > 3)
-console.log(countKeys);
+console.log(countKeys.length);
 
-//milenaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
