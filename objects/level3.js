@@ -13,13 +13,13 @@ let totalPrice = 0;
 shoppingCart.forEach(item => {
   totalPrice += item.price * item.quantity;
 });
-console.log(totalPrice)
+console.log("totalPrice is",totalPrice)
 
 
 // using reduce do the same
 
-const reducedPrice = shoppingCart.reduce((accumulator, currentItem) => {
-  return accumulator + (currentItem.price * currentItem.quantity);
+const reducedPrice = shoppingCart.reduce((name, prodtName) => {
+  return name + (prodtName.price * prodtName.quantity);
 }, 0);
 
-console.log(reducedPrice);
+console.log( "totalPrice is",reducedPrice);
