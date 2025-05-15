@@ -25,7 +25,7 @@ const colors = ['red','green','red','green','blue']
 //    blue: 1
 // }
 colors.forEach(item=>{
-    debugger;
+    // debugger;
     if(result[item])
     {
         result[item]++;
