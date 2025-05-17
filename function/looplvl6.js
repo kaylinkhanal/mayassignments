@@ -50,3 +50,9 @@ const peopleFull = [
 ];
 const fullNames = peopleFull.map(p => `${p.first} ${p.last}`);
 console.log(fullNames);
+
+
+
+const name = ['ram','shyam','hari']
+
+console.log()

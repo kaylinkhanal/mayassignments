@@ -21,7 +21,7 @@ const users =['ram' ,'shyam',null, undefined, false, 'gopal']
 //Q2. output should be ['ram', 'shyam', 'gopal']
 
 const output = users.filter((item)=> {
-return item
+return item;
 })
 console.log(output)
 
