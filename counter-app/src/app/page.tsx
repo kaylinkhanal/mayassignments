@@ -26,7 +26,9 @@ export default function HomePage() {
           key={count}
           initial={{ scale: 0.5, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
-          transition={{ type: "spring", stiffness: 300 }}
+          // transition={{ type: "spring", stiffness: 100 }}
+          // transition={{ type: "tween", duration: 0.5, ease: "easeInOut" }}
+          transition={{ type: "inertia", velocity: 1, bounceStiffness: 400 }}
           className="text-5xl font-bold text-amber-500 mb-8"
         >
           {count}
