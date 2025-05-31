@@ -1,7 +1,9 @@
 'use client'
 import React, { useState } from 'react'
+import { useSelector } from 'react-redux'
 
 const Calculator = () => {
+  
   const [result, setResult] = useState('')
   const buttons = [
     ['7', '8', '9', '/'],
@@ -32,6 +34,7 @@ const Calculator = () => {
       setResult(result + value)
     }
   }
+  const {value} = useSelector(state=>state.counter)
 
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center px-4">
@@ -39,7 +42,7 @@ const Calculator = () => {
         <div className="mb-6 h-16 bg-gray-100 text-right text-2xl px-4 py-3 rounded-md font-mono tracking-wider border border-gray-200 overflow-x-auto">
           {result || '0'}
         </div>
-
+{value}
         <div className="grid grid-cols-4 gap-3">
           {buttons.flat().map((btn, idx) => {
             const base =
